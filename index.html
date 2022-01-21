@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptoodoo</title>
+    <link rel="shortcut icon" href="imgenes/New_2.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style="background-image: url('imgenes/fotoSinMuñecoPAracerrada.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;">
+    
+    <p><span id="web3_message">Loading web3...</span></p>
+    <p>You have <span id="nft_balance"></span> Cryptoodoos</p>
+    <center><img src="imgenes/banerNombre.png" width="500px" alt=""></center>
+    
+    <section class="container">
+        <h1>Faltan</h1>
+        <center><div class="countdown">
+            <div>
+                <p class="destacado" id="days">132</p>
+                <span class="destacado2">Dias</span>
+            </div>
+            <div>
+                <p class="destacado" id="hours">15</p>
+                <span class="destacado2">Horas</span>
+            </div>
+            <div>
+                <p class="destacado" id="minutes">25</p>
+                <span class="destacado2">Minutos</span>
+            </div>
+            <div>
+                <p class="destacado" id="seconds">45</p>
+                <span class="destacado2">Segundos</span>
+            </div>
+        </div></center>
+        <h1>Para la venta..</h1>
+    </section>
+    
+    <section class="final-sms">
+     
+        <center><p>Mint is Available- <select id="mint_amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    <span id="price2"></span></p>
+      <input type="image" name="mint!" src="./imgenes/patronmuñeco2.png" onclick="mint()"style='width:150px; height: 70px'>
+      <p> Remaining Cryptoodoos <span id="total_mint"></span>/10000</p>
+        </center></section>
+<p class="descripcion">En  los pantanos de louisiana se encuentra una cabaña de madera en su interior vivía una bruja que para evitar el caos en el mundo se puso a confeccionar un muñeco voodoo cada 3 días durante 90 años. En total confecciono 10,000 Cryptoodoo, Cada muñeco con rasgos y cualidades diferentes. Cuando la bruja terminaba un muñeco lo colocaba en una cajita de madera y  lo arroja al rio, este lo llevaba al mar, tarde o temprano todos los Cryptoodoos llegaran a opensea.
+
+    <p class="descripcion">Cuanto antes tengas tu Cryptoodoo mas posibilidades tendras de ganar premios en Matic poligono y muchos NFTs de colecciones amigas
+    
+    <p class="descripcion">Para ayudar a que el precio del piso de la coleccion suba sin subir el costo de la minta, por sorteos se compraran algunos Cryptoodoos a 84 matic a personas en opensea. como lo indica nuestro roadmap </p></p></p>
+    <center><div><img class="roadmap" src="imgenes/roadmapesp.png" width="80%" alt=""></div></center>
+</body>
+</html>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script>
+<script type="text/javascript" src="src/contract_interaction.js"></script>
+<script src="src/script.js"></script>
