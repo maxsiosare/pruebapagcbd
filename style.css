@@ -33,8 +33,8 @@ p{
     display: grid;
     place-items: center;
     border: solid 1px #fff;
-    height: 100px;
-    width: 100px;
+    height: 20%;
+    width: 20%;
     border-radius: 10%;
     color: #fff;
     font-size: 2rem;
