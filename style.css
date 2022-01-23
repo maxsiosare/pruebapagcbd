@@ -14,7 +14,7 @@
 .countdown div{
     display: grid;
     place-items: center;
-    padding: 10px;
+    padding: 20%;
 }
 h1{
     text-align: center;
